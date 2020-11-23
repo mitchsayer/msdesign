@@ -87,6 +87,7 @@ h1
     width: 40px;
     margin: 1px auto 0;
     cursor: pointer;
+    transition-duration: 0.4s;
     
 }
 .useful-links img
@@ -94,6 +95,7 @@ h1
     width: 35px;
     margin: 1px auto 0;
     cursor: pointer;
+    transition-duration: 0.4s;
 }
 .social-links
 {
@@ -102,7 +104,7 @@ h1
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 15%
+    right: 15%;
 }
 
 .useful-links
@@ -111,5 +113,5 @@ h1
     text-align: center;
     position: absolute;
     bottom: 30px;
-    right: 15%
+    right: 15%;
 }
