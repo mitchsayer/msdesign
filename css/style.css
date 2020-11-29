@@ -2,16 +2,55 @@
 body 
 {
     overflow-x: hidden;
-    font-family: 'Source+Serif+Pro', sans-serif;
+    font-family: 'Source Serif Pro', sans-serif;
     color: #616971;
 }
 
 /*======== TOP BAR HEADER ========*/
 
+.top-bar
+{
+    background: #7aaec4;
+    height: 2.8rem;
+    padding:  .5rem 0;
 
+}
+
+.top-bar a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+}
 /*======== NAVIGATION ========*/
 
+.navbar-brand img
+{
+    height: 3rem;
+}
+.navbar-brand
+{
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1;
 
+}
+.nav-item
+{
+    padding: .5rem;
+}
+.nav-link
+{
+    color: #5b5555 !important;
+}
+.nav-link.active,
+.nav-link:hover
+{
+    color: #4981b3 !important;
+}
 /*======== CAROUSEL ========*/
 
 
