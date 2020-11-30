@@ -27,7 +27,8 @@ body
 
 .navbar-brand img
 {
-    height: 3rem;
+    /*======LOGO======*/
+    height: 5rem;
 }
 .navbar-brand
 {
